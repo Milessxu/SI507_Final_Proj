@@ -1,2 +1,0 @@
-client_ID = '3m_-2LWnmEIvQefDLn2zyQ'
-API_KEY = 'nuxt5rkPg5LET0Us12cj-idDUB2IXjnKyljkOndeCXSJ6HdRV5fGvQPIDMr31hW161DyWY3kAP38KstYlI6snUrCTMHm6ktMvskkLG3UBCr0Vfv7TaqjDhkNXsKcXnYx'
