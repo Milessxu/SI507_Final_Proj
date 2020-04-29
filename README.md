@@ -14,10 +14,10 @@
 * Restaurant results page: It shows the top rated restaurants according to the keyword, with the rating provided.
 * Restaurant review page: after the search results, user can further click to see the top reviews of the restaurants above.
 * User can go back to the previous page or homepage directly when he/she wants.
-* templates are all in the "templates" folder
+* templates are all in the "templates" folder.
 
 4) secrets.py
-- It is left blank for the API key to be filled
+- It is left blank for the API key to be filled.
 
 2. User guide:
 
