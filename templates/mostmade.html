@@ -1,0 +1,39 @@
+<header>
+  <h2> Here are the most made dishes: </h2>
+</header>
+
+<body>
+  <table border = 1 align = "center">
+    <tr>
+      <td> No. </td>
+      <td> Recipe Name </td>
+      <td> Average Rating </td>
+      <td> Link to the recipe </td>
+    </tr>
+
+  {% for r in recipe %}
+    <tr>
+      <td> {{r[0]}} </td>
+      <td> {{r[1]}} </td>
+      <td> {{r[3]}} </td>
+      <td> {{r[2]}} </td>
+
+    </tr>
+  {% endfor %}
+
+  </table>
+
+<div class = "container options">
+  <div class = "row">
+    <div class = "home col-sm-5">
+      <p> <a href = "/"> Return to homepage </a> </p>
+    </div>
+
+    <div class = "restaurant-home col-sm-5">
+      <p> <a href = "/recipecategory"> Return to category </a> </p>
+    </div>
+  </div>
+</div>
+</body>
+
+

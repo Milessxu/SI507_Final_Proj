@@ -1,0 +1,40 @@
+<header>
+  <h2> Your top 10 favourites are: </h2>
+</header>
+
+<body>
+  <div class = "table-place">
+    <table border = 1 align = "center">
+      <tr>
+        <td> Search Keyword </td>
+        <td> Times of search </td>
+        <td> Last search on </td>
+      </tr>
+    {% for h in history %}
+
+      <tr>
+        <td> {{h['name']}}</td>
+        <td> {{h['num']}}</td>
+        <td> {{h['lastSearch']}}</td>
+      </tr>
+
+    {% endfor %}
+
+    </table>
+  </div>
+
+  <div class = "container">
+    <div class = "row">
+      <div class = "home col-sm-6">
+        <p> <a href = "/"> Return to homepage </a> </p>
+      </div>
+
+      <div class = "restaurant-home col-sm-6">
+        <p> <a href = "/restaurants"> Return to previous page </a> </p>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+

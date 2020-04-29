@@ -1,0 +1,20 @@
+<header>
+  <h2> Reviews of the searched restaurants </h2>
+</header>
+
+<body>
+{% for r in review %}
+
+  <div class = "restaurant-name">
+    <h3> {{r['name']}} </h3>
+    <p> {{r["reviews"][0]}} </p>
+    <p> {{r["reviews"][1]}} </p>
+    <p> {{r["reviews"][2]}} </p>
+
+  {% endfor %}
+
+
+  </div>
+
+</body>
+

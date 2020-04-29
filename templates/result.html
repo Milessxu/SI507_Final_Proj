@@ -1,0 +1,30 @@
+<header>
+  <h1> Highest Rated Search Results: </h1>
+</header>
+
+<body>
+
+{% for r in result %}
+
+  <div class = "entry">
+    <p class = "result-res"> {{r['name']}} , rate: {{r['attributes']['rating']}}</p>
+  </div>
+
+{% endfor %}
+
+<div class = "container options">
+  <div class = "row">
+    <div class = "home col-sm-3">
+      <p> <a href = "/"> Return to homepage </a> </p>
+    </div>
+
+    <div class = "restaurant-home col-sm-3">
+      <p> <a href = "/restaurants"> Search again </a> </p>
+    </div>
+
+    <div class = "review col-sm-3">
+      <p> <a href = "/review"> Reviews of the listing restaurants </a></p>
+    </div>
+  </div>
+</div>
+

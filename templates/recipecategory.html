@@ -1,0 +1,22 @@
+<header>
+  <h2> Choose your prefered category: </h2>
+</header>
+
+<body>
+  <form action = "/mostmade" method = "POST">
+  {% for cate in category %}
+    <h4> {{cate['name']}} </h4>
+    {% for item in cate["subs"] %}
+    <p class = "button-choice"><input type = "radio" name = "type" value = "{{cate["subs"][item]}}"/>   {{item}}</p>
+    {% endfor %}
+  {% endfor %}
+    <p><input type="submit" value="Submit"/></p>
+
+  </form>
+
+  <div class = "container options">
+    <p> <a href = "/"> Return to homepage </a> </p>
+    
+  </div>
+</body>
+
