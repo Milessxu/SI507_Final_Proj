@@ -16,6 +16,8 @@
 * User can go back to the previous page or homepage directly when he/she wants.
 * templates are all in the "templates" folder
 
+4) secrets.py
+- It is left blank for the API key to be filled
 
 2. User guide:
 
